@@ -1,0 +1,86 @@
+
+.class1 { fill: hsl(360,100%, 80%); }
+.class2 { fill: hsl(360, 100%, 65%); }
+.class3 { fill: hsl(360, 100%, 45%); }
+.class4 { fill: hsl(360, 100%, 15%); }
+.class5 { fill: hsl(360, 100%, 0%); }
+.class6 { 
+	display: none;
+	}
+.borders { 
+	fill: black;
+	}
+.Africa {
+	fill: hsl(0, 75%, 50%);
+		opacity: 0.7;
+}
+.Asia {
+	fill: hsl(60, 85%, 50%);
+		opacity: 0.7;
+}
+.Australia{
+	fill: hsl(120, 75%, 50%);
+		opacity: 0.7;
+}
+.LatinAmerica {
+	fill: hsl(165, 54%, 50%);
+		opacity: 0.7;
+}
+.NorthAmerica {
+	fill: hsl(240, 50%, 50%);
+		opacity: 0.7;
+
+}
+.Europe {
+	fill: hsl(330, 55%, 50%);
+        opacity: 0.7;
+}
+.Others {
+	fill: hsl(0, 0%, 0%);
+}
+.Invisible {
+    fill: hsl(0, 0%, 0%);
+    opacity: 0;
+}
+.axisText {
+	font-weight: normal;
+}
+#map { 
+		animation: mymove 5s; 
+		background-color: #FFFFFF;
+		border-style: solid;
+		border-width: 5px;
+}
+#scatterPlot {
+		animation: mymove 5s;
+		position: absolute;
+		right: 10px;
+		border-style: solid;
+		border-width: 5px;
+		background-color: #FFFFFF;
+}
+#legendWorldMap {
+		position: absolute;
+		top: 550px;
+		left: 20px;
+		width: 200px;
+}
+#legendScatterPlot {
+	position: absolute;
+	top: 550px;
+	right: -20px;
+	width: 200px;
+}
+@keyframes mymove {
+    from {background-color: #F0FFFF;}
+    to {background-color: #FFFFFF;}
+}
+text {
+	font-weight: bold;
+}
+div.filter {
+    position: absolute;
+    top: 770px;
+    right: 65px;
+    width: 900px;
+}

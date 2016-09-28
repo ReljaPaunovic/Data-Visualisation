@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<LINK href="./CSS/style.css" rel="stylesheet" type="text/css">
+<body>
+<script src="./Libraries/d3.min.js" charset="utf-8"></script>
+<script src="./Libraries/topojson.v1.min.js"></script>
+<script src="./Data/CountryNamesForComparison.json"></script>
+<script src="./JavaScript/main.js"></script>
+<svg id="legendWorldMap"> 
+		<rect x="0" y="0" width="20" height="20" class="class1" > </rect>
+		<text x="25" y="15" fill="black"> < 20 </text>
+		<rect x="0" y="20px" width="20" height="20" class="class2"  > </rect> 
+		<text x="25" y="35" fill="black"> 21 - 30</text>
+		<rect x="0" y="40px" width="20" height="20" class="class3"  > </rect> 
+		<text x="25" y="55" fill="black"> 31 - 40</text>
+		<rect x="0" y="60px" width="20" height="20" class="class4"  > </rect> 
+		<text x="25" y="75" fill="black"> 41 - 50</text>
+		<rect x="0" y="80px" width="20" height="20" class="class5"  > </rect> 
+		<text x="25" y="95" fill="black"> >50 </text>
+        <text x="0" y="115" fill="black"> Average Age </text>
+</svg>
+<svg id="legendScatterPlot"> 
+		<rect x="0" y="0" width="20" height="20" class="Africa"> </rect>
+		<text x="25" y="15" fill="black"> Africa </text>
+		<rect x="0" y="20px" width="20" height="20" class="Asia"> </rect> 
+		<text x="25" y="35" fill="black"> Asia </text>
+		<rect x="0" y="40px" width="20" height="20" class="Australia"> </rect> 
+		<text x="25" y="55" fill="black"> Australia </text>
+		<rect x="0" y="60px" width="20" height="20" class="Europe"> </rect> 
+		<text x="25" y="75" fill="black"> Europe</text>
+		<rect x="0" y="80px" width="20" height="20" class="LatinAmerica"> </rect> 
+		<text x="25" y="95" fill="black"> Latin America </text>
+		<rect x="0" y="100px" width="20" height="20" class="NorthAmerica"> </rect> 
+		<text x="25" y="115" fill="black"> North America </text>
+		<rect x="0" y="120px" width="20" height="20" class="Others"> </rect> 
+		<text x="25" y="135" fill="black"> Others </text>
+</svg>
+</br>
+<input type="range" min="1955" max="2015" value="1955" step="5" onchange="showValue(this.value)" id="rangeScroll"/>
+<button type="button" onclick="runAnimation();" id="runAnimationButton"> Run Animation! </button>
+<button type="button" onClick="Stopped = 1;"> Stop Animation! </button>
+<span id="range">1955</span>
+<p id="countryName"> </p>
+<div class="filter">
+ 
+    <input id="africa" type="checkbox" checked onchange="filterarea()"/>Africa
+    <input id="asia" type="checkbox" checked onchange="filterarea()"/>Asia
+    <input id="australia" type="checkbox" checked onchange="filterarea()"/>Australia
+    <input id="europe" type="checkbox" checked onchange="filterarea()"/>Europe
+    <input id="latinamerica" type="checkbox" checked onchange="filterarea()"/>Latin America
+    <input id="northamerica" type="checkbox" checked onchange="filterarea()"/>North America
+    <input id="others" type="checkbox" checked onchange="filterarea()"/>Others<br>Zoom 
+    <input id="zoom" type="number" value = 100 onchange="zoomscatter(value)"/>      
+    <input id="shrink" type="checkbox" onchange="filterarea()"/>Shrink China & India
+	</br>
+	Y Axis
+	<select id="yAxisSelect" onchange="selectVariable()">
+		<option value="Migration" selected="selected" >Migration</option>
+		<option value="SexRatio">SexRatio</option>
+		<option value="PopulationGrowth">PopulationGrowth</option>
+	</select>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

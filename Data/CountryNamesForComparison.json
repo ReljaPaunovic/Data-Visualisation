@@ -1,0 +1,222 @@
+var countryNames = 
+{
+  "Alaska": {
+    "OldName":"United States of America"
+  },
+  "Antigua": {
+    "OldName":"Antigua and Barbuda"
+  },
+  "Barbuda": {
+    "OldName":"Antigua and Barbuda"
+  },
+  "Bolivia": {
+    "OldName":"Bolivia (Plurinational State of)"
+  },
+  "Brunei": {
+    "OldName":"Brunei Darussalam"
+  },
+  "Brussels": {
+    "OldName":"Belgium"
+  },
+  "Flemish": {
+    "OldName":"Belgium"
+  },
+  "Walloon": {
+    "OldName":"Belgium"
+  },
+  "Côte d'Ivoire": {
+    "OldName":"C�te d'Ivoire"
+  },
+  "Cape Verde": {
+    "OldName":"Cabo Verde"
+  },
+  "Central African Rep.": {
+    "OldName":"Central African Republic"
+  },
+  "Curaçao": {
+    "OldName":"Cura�ao"
+  },
+  "Czech Rep.": {
+    "OldName":"Czech Republic"
+  },
+  "Dem. Rep. Congo": {
+    "OldName":"Democratic Republic of the Congo"
+  },
+  "Dominican Rep.": {
+    "OldName":"Dominican Republic"
+  },
+  "England": {
+    "OldName":"United Kingdom"
+  },
+  "Fed. of Bos. & Herz.": {
+    "OldName":"Bosnia and Herzegovina"
+  },
+  "Rep. Srpska": {
+    "OldName":"Bosnia and Herzegovina"
+  },
+  "Fr. Polynesia": {
+    "OldName":"French Polynesia"
+  },
+  "Gaza": {
+    "OldName":"State of Palestine"
+  },
+  "West Bank": {
+    "OldName":"State of Palestine"
+  },
+  "Hong Kong": {
+    "OldName":"China, Hong Kong SAR"
+  },
+  "Iran": {
+    "OldName":"Iran (Islamic Republic of)"
+  },
+  "Korea": {
+    "OldName":"Republic of Korea"
+  },
+  "Korea": {
+    "OldName":"Republic of Korea"
+  },
+  "Dem. Rep. Korea": {
+    "OldName":"Dem. People's Republic of Korea"
+  },
+  "Korean DMZ (north)": {
+    "OldName":"Dem. People's Republic of Korea"
+  },
+  "Korean DMZ (south)": {
+    "OldName":"Dem. People's Republic of Korea"
+  },
+  "Lao PDR": {
+    "OldName":"Lao People's Democratic Republic"
+  },
+  "Macao": {
+    "OldName":"China, Macao SAR"
+  },
+  "Macedonia": {
+    "OldName":"TFYR Macedonia"
+  },
+  "Moldova": {
+    "OldName":"Republic of Moldova"
+  },
+  "N. Ireland": {
+    "OldName":"United Kingdom"
+  },
+  "North I.": {
+    "OldName":"New Zealand"
+  },
+  "Others": {
+    "OldName":"Other non-specified areas"
+  },
+  "Reunion": {
+    "OldName":"R�union"
+  },
+  "Russia": {
+    "OldName":"Russia"
+  },
+  "Kaliningrad": {
+    "OldName":"Russia"
+  },
+  "Sao Tome": {
+    "OldName":"Sao Tome and Principe"
+  },
+  "Scotland": {
+    "OldName":"United Kingdom"
+  },
+  "Solomon Is.": {
+    "OldName":"Solomon Islands"
+  },
+  "South I.": {
+    "OldName":"New Zealand"
+  },
+  "St. Vin. and Gren.": {
+    "OldName":"Saint Vincent and the Grenadines"
+  },
+  "Syria": {
+    "OldName":"Syrian Arab Republic"
+  },
+  "Tanzania": {
+    "OldName":"United Republic of Tanzania"
+  },
+  "Trinidad": {
+    "OldName":"Trinidad and Tobago"
+  },
+  "U.S. Virgin Is.": {
+    "OldName":"United States Virgin Islands"
+  },
+  "U.S.A.": {
+    "OldName":"United States of America"
+  },
+  "Hawaii": {
+    "OldName":"United States of America"
+  },
+  "Venezuela": {
+    "OldName":"Venezuela (Bolivarian Republic of)"
+  },
+  "Vietnam": {
+    "OldName":"Viet Nam"
+  },
+  "W. Sahara": {
+    "OldName":"Western Sahara"
+  },
+  "Wales": {
+    "OldName":"United Kingdom"
+  },
+  "Corsica": {
+    "OldName":"France"
+  },
+  "Sicily": {
+    "OldName":"Italy"
+  },
+  "Sardinia": {
+    "OldName":"Italy"
+  },
+  "Balearic Is.": {
+    "OldName":"Spain"
+  },
+  "Vojvodina": {
+    "OldName":"Sebia"
+  },
+  "Kosovo": {
+    "OldName":"Sebia"
+  },
+  "Greenland": {
+    "OldName":"Denmark"
+  },
+  "Svalbard Is.": {
+    "OldName":"Norway"
+  },
+  "Baikonur": {
+    "OldName":"Kazakhstan"
+  },
+  "Siachen Glacier": {
+    "OldName":"India"
+  },
+  "Iraqi Kurdistan": {
+    "OldName":"Iraq"
+  },
+  "Adjara": {
+    "OldName":"Georgia"
+  },
+  "Somaliland": {
+    "OldName":"Somalia"
+  },
+  "Puntland": {
+    "OldName":"Somalia"
+  },
+  "Río Muni": {
+    "OldName":"Equatorial Guinea"
+  },
+  "Tasmania": {
+    "OldName":"Australia"
+  },
+  "Kyushu": {
+    "OldName":"Japan"
+  },
+  "Honshu": {
+    "OldName":"Japan"
+  },
+  "Hokkaido": {
+    "OldName":"Japan"
+  },
+  "Shikoku": {
+    "OldName":"Japan"
+  }
+}
